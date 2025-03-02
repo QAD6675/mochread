@@ -8,24 +8,22 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3 className="footer-title">CS Club</h3>
-          <p className="footer-description">
-            Empowering students through coding, collaboration, and creativity.
-          </p>
+          <h3 className="footer-title">Mochread</h3>
+          <p className="footer-description">Dope Artist</p>
           <div className="social-links">
             <a
-              href="https://github.com/ImraneTafsir"
+              href="placeholder"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="mailto:Sana.hamza2009@hotmail.com" aria-label="Email">
+            <a href="maito:placeholder" aria-label="Email">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
             <a
-              href="https://discord.com/users/1327660506626003005"
+              href="https://discord.com/users/Mochread"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Discord"
@@ -36,8 +34,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2025 CS Club. All rights reserved.</p>
-        <p>Last updated: 2025-03-02</p>
+        <p>&copy; 2025 Mochread. All rights reserved.</p>
       </div>
     </footer>
   );

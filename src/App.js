@@ -11,10 +11,8 @@ import { auth, logoutAdmin } from "./firebase";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Activities from "./components/Activities";
 import Projects from "./components/Projects";
 import AdminLogin from "./components/AdminLogin";
-import ProtectedRoute from "./components/ProtectedRoute";
 
 // Styles
 import "./App.css";
@@ -51,7 +49,6 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/activities" element={<Activities />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/admin-login" element={<AdminLogin />} />
             <Route path="*" element={<Navigate to="/" />} />

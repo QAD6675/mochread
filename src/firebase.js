@@ -11,12 +11,17 @@ import {
 import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCyzEGEwMyhlyZwSKwOHyZ2JppggvxXoqQ",
-  authDomain: "cs-club-portfolio.firebaseapp.com",
-  projectId: "cs-club-portfolio",
-  storageBucket: "cs-club-portfolio.firebasestorage.app",
-  messagingSenderId: "244011281108",
-  appId: "1:244011281108:web:3aee165999b609aed1a941",
+  apiKey: "AIzaSyALUUkJLIYBpLsN0cnFurni_x044DI8pD8",
+
+  authDomain: "mochread.firebaseapp.com",
+
+  projectId: "mochread",
+
+  storageBucket: "mochread.firebasestorage.app",
+
+  messagingSenderId: "630482092582",
+
+  appId: "1:630482092582:web:e4249fa7b0d3048ecc1ce7",
 };
 
 // Initialize Firebase

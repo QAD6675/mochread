@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
   faLaptopCode,
-  faCalendarAlt,
   faUserCog,
   faBars,
   faTimes,
@@ -31,8 +30,8 @@ function Navbar({ user, handleLogout }) {
     <nav className="navbar">
       <div className="navbar-brand">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <img src="./icon.png" alt="CS Club Logo" />
-          CS Club
+          <img src="./icon.png" alt="mochread" />
+          mochread
         </Link>
         <button
           className="navbar-toggle"
@@ -50,15 +49,6 @@ function Navbar({ user, handleLogout }) {
             onClick={closeMenu}
           >
             <FontAwesomeIcon icon={faHome} /> Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/activities"
-            className={isActive("/activities") ? "active" : ""}
-            onClick={closeMenu}
-          >
-            <FontAwesomeIcon icon={faCalendarAlt} /> Activities
           </Link>
         </li>
         <li>
